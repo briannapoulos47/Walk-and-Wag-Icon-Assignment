@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Flexbox styling</title>
+
+    <!-- FONT AWESOME -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <section class="top">
+        <h1>Largest No-kill Shelter on Long Island Raises $150,000 in Saturday Fundraiser</h1>
+        <h2> On September 16, 246 walkers and their dogs from 116 different cities trecked three-miles down the Hudson River.</h2>
+      </section>
+
+      <!-- <section class="photo"> -->
+
+      <figure>
+        <img class="main_img" src="images/startline.jpg" alt="startingline of the walk">
+        <figcaption>Walk and Wag starting line located at Pier 84. This is the first time the event was hosted in Manhattan. <span class="credit">Credit: Brianna Poulos</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>Dozens of animal lovers gathered by the Hudson river for the North Shore Animal League’s sixth annual fundraiser this month. This was the first time the 3-mile walk was hosted in Manhattan and more than 246 people participated. </p>
+
+        <p>I“We are based in Fort Washington on Long Island, we love our supporters there, but we also have a national presence. We wanted [the event] to be in the heart of the world, which is Manhattan,” said Kacie Bogan, the senior events manager of North Shore Animal League.</p>
+
+        <p>Walk and Wag was also available virtually to reach more supporters nationwide. Bogan said those who participated virtually were encouraged to visit their local parks and trails to complete the walk.</p>
+
+        <p>“We have hundreds of walkers walking, even if they weren't here today. We have walkers from California to New York. We're in over 25 states,” Bogan said.</p>
+
+        <p><a href="https://www.animalleague.org/?gclid=Cj0KCQjwkOqZBhDNARIsAACsbfJz-K3XvbAWfNhdZjQkoPogwKCaDk2T-pEjOv9OHCkMzxumZN_xVJcaAtWBEALw_wcB">North Shore Animal League</a> is the largest no-kill shelter on Long Island, facilitating more than 60,000 pet adoptions a year.</p>
+
+      </section>
+
+      <div class="blue">
+      <h3 class="flex-hed">Some Important Walk and Wag Event Numbers</h3> <!-- broke the subhed out of text to correct alignment based on mock -->
+
+      <section class="flex">
+        <!-- flex box refers to the box that contains the "flexed" content -->
+
+        <section class="img_holder">
+          <!-- each img_holder is flexed content -->
+          <figure class="sub_img">
+            <img class="main_img" src="images/walking-with-dog.png" alt="person walking dog"> <!-- You should crop your images to be the same size before using them, otherwise, even with flex box, they come out uneven -->
+          </figure>
+
+          <section class="sub_text">
+            <p>More then 246 people, from 116 different cities, participated in the three-mile walk for North Shore Animal League.
+            </p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/fundraiser.png" alt="fundraiser symbol">
+          </figure>
+
+          <section class="sub_text">
+            <p>More than $150,000 was raised on Saturday at the Walk and Wag event by walkers, donor and sponsors.</p>
+          </section>
+        </section>
+
+
+        <section class="img_holder">
+          <figure class="sub_img">
+            <img class="main_img" src="images/pets.png" alt="dog and cat">
+          </figure>
+
+          <section class="sub_text">
+            <p>North Shore Animal League is the largest no-kill shelter on long island, rehoming more than 60,000 furry friends a year.</p>
+          </section>
+        </section>
+
+      </section>
+      <!-- this ^ closes the flex box section -->
+    </div>
+
+      <figure>
+        <img class="main_img" src="images/bogan.jpg" alt="Woman smiling with hand on hip">
+        <figcaption>Kacie Bogan, North Shore Animal League’s senior event coordinator, in a Walk and Wag fundraiser tee-shirt. This is Bogan’s sixth year organizing the event.
+ <span class="credit">Credit: Brianna Poulos</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>“Rescue, nurture, adopt and educate - that is our mission. That's what the purpose of this whole [event] was - to raise funds for our mission and to get everybody together and have this amazing walk in a beautiful location,” Bogan said.</p>
+
+        <p>Brianna Pang Sawhney didn’t plan on participating in Walk and Wag when she brought her Labradoodles, Chewie and Lando, to the pier for a walk, however when she saw the excitement of the event she quickly joined as a walker.</p>
+
+        <p>“I feel like people will often say that in the city it's hard to be a dog owner, but I think that having resources like this and having fairs like this is really helpful,” Sawhney said.</p>
+        </section>
+
+      <figure>
+        <img class="main_img" src="images/pang.jpg" alt="woman kneeling with her two dogs">
+        <figcaption>Brianna Pang Sawhney with her two dogs, Chewie (front) and Lando (back) after the walk. Sawhney and her pups are regulars at the Hudson River pier.
+ <span class="credit">Credit: Brianna Poulos</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>“Aviv Sinai, a regular at the <a href="https://hudsonriverpark.org/activities/pier-84-dog-park/">Pier 84 Dog Run</a>, echoed these sentiments about being a dog owner in the city. </p>
+
+        <p>Sinai travels uptown to the dog run every weekend to let his dog, Cedric, run around.</p>
+
+        <p>“If you don't live in a place close to a dog park, it's hard. Apartments are small which is also hard,” Sinai said.</p>
+
+        <p>While Sinai didn’t participate in the walk, he said it was nice to see so many dog owners out with their pets.</p>
+      </section>
+
+      <figure>
+        <img class="main_img" src="images/dog-park.jpg" alt="dogs playing in dog park">
+        <figcaption>Dogs playing in the sprinklers at the Pier 84 Dog Run. 
+ <span class="credit">Credit: Brianna Poulos</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>Sawhney said that a highlight of the event for her was connecting with all of the vendors.</p>
+
+        <p>Pumpkin spice biscuits and CBD-infused dog treats were just a few sweet snacks that Sawhney purchased for her pups.</p>
+
+        <p>Alina Andranikian of Axel & Tia's Pet Bakery was one of the many vendors at the event.</p>
+
+        <p>Andranikian specializes in baked goods made with wholesome ingredients that can be shared by both pets and their owners.</p>
+
+        <p>“We work with local and sustainable farmers to create an eco-friendly brand. We just want to create healthy sugar-free dog treats for people to enjoy with their pets,” said Andranikian.</p>
+        </section>
+        
+        <figure>
+        <img class="main_img" src="images/cookies.jpg" alt="woman putting whipcream on muffins">
+        <figcaption>Alina Andranikian topping her pumpkin spice muffins with whipped cream. All of Axel & Tia’s baked goods can be eaten by both pets and their parents. 
+ <span class="credit">Credit: Brianna Poulos</span></figcaption>
+      </figure>
+
+      <section class="text">
+        <p>Andranikian said that her bakery is best known for its cakes that are decorated with custom pet portraits.</p>
+
+        <p>“We donate $1 from every purchase to <a href="https://onetreeplanted.org/products/plant-trees?gclid=Cj0KCQjw7KqZBhCBARIsAI-fTKL8Nib5v3JJ_FxwQNkiZF6TlyugCohZRc6r133MQF13ZbMXDOr9iOsaAvpaEALw_wcB">One Tree Planted</a>. Our main focus is to give back while making something fun for dogs and their parents,” Andranikian said.</p>
+
+        <p>This was Andranikian’s first time participating in Walk and Wag but said that she would like to be a part of it again.</p>
+
+        <p>Bogan said new walkers can still register for the event and participate virtually until September 30.</p>
+        </section>
+    </div>
+
+    <!-- When you get to using javascript, you'll want to link to it at the bottom of the document, still inside the body. That's for later. -->
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Your javascript should be called here -->
+
+  </body>
+
+</html>

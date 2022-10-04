@@ -1,1 +1,2 @@
-# Walk-and-Wag-Icon-Assignment
+# flexbox-demo
+demo files for teaching flexbox
